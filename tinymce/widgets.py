@@ -14,7 +14,7 @@ from django.contrib.staticfiles import finders
 from django.core.serializers.json import DjangoJSONEncoder
 from django.forms import Textarea, Media
 from django.forms.utils import flatatt
-from django.utils.encoding import smart_text
+from django.utils.encoding import smart_str
 from django.utils.safestring import mark_safe
 from django.utils.html import escape
 from django.utils.translation import get_language, get_language_bidi
