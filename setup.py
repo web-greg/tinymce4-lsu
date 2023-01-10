@@ -5,7 +5,7 @@ from codecs import open
 from setuptools import setup
 import metadata
 
-app_name = metadata.name
+app_name = "Tinymce4-lsu"
 version = metadata.version
 this_dir = os.path.dirname(os.path.abspath(__file__))
 

@@ -1,4 +1,4 @@
-name = 'tinymce4-lite'
-authors = 'Joost Cassee, Aljosa Mohorovic, Roman Miroshnychenko'
-version = '1.8.0'
+name = 'tinymce4-lsu'
+authors = 'GP'
+version = '2.0'
 release = version
