@@ -169,6 +169,7 @@ class TinyMCE(Textarea):
             attributes.update(extra_attrs)
         return attributes
 
+
     def render(self, name, value, attrs=None, renderer=None):
         if value is None:
             value = ''
