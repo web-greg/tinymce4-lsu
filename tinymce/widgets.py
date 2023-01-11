@@ -172,7 +172,7 @@ class TinyMCE(Textarea):
     def render(self, name, value, attrs=None, renderer=None):
         if value is None:
             value = ''
-        value = smart_text(value)
+        value = smart_str(value)
         final_attrs = self.build_attrs(self.attrs, attrs)
         final_attrs['name'] = name
         final_attrs['class'] = (final_attrs.get('class', '') + ' tinymce4-editor').lstrip()
